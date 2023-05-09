@@ -8,10 +8,9 @@
     </head>
     <body style="width: 100%; height: 100%; background-image: url(hacker.gif); display: flex; justify-content: center; align-items: center; flex-direction: column;">
         <div style="position: fixed; top: 100px;">
-            <h1 id="myHeading" style="display:none; color: red;">მისამართი გაგებულია</h1>
-            <h1 id="myHeading2"  style="display:none; color: red;">ნომერი გაგებულია</h1>
-            <h1 id="myHeading3" style="display:none; color: red;">პაროლები გაგებულია</h1>
-            <h1 id="myHeading4"  style="display:none; color: red;">აქაუნთები დაბლოკილია</h1>
+            <h1 id="myHeading" style="display:none; color: red;">მადლობა ლინკზე ხელის დაჭერისთვის.</h1>
+            <h1 id="myHeading3" style="display:none; color: red;">ამით ჩვენ</h1>
+            <h1 id="myHeading4"  style="display:none; color: red;">თქვენი ინფორმაცია გავიგეთ. ასევე თქვენი მოწყობილობა დავირუსდება</h1>
             <div style="align-items: center; text-align: center;">
                 
                 <div id="eror1"  style="display:none; color: red;">error</div>
@@ -60,21 +59,12 @@
 		setTimeout(function() {
 			document.getElementById("myHeading").style.display = "block";
 		}, 1000);
-
-		setTimeout(function() {
-			document.getElementById("myHeading2").style.display = "block";
-		}, 2000);
-
 		setTimeout(function() {
 			document.getElementById("myHeading").style.display = "none";
-		}, 2000);
-
-		setTimeout(function() {
-			document.getElementById("myHeading3").style.display = "block";
 		}, 3000);
 
 		setTimeout(function() {
-			document.getElementById("myHeading2").style.display = "none";
+			document.getElementById("myHeading3").style.display = "block";
 		}, 3000);
 
 		setTimeout(function() {
